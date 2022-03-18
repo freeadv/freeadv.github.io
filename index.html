@@ -14,7 +14,7 @@ var desc = get('ad');
 var url = get('aoc');
 var img = get('ai');
 
-document.getElementById('fad-slot').innerHTML = `<div class = "fad-slot-content" style = "border:5px solid;border-radius:10px;width:50%;height:25%;"><div class = "fad-slot-right-side"><div class = "fad-slot-title" style = "font-size:15px;font-family:Arial;color:black;"><b>${title}</b><div class = "fad-slot-right-container-promo-image"><img src = "${img}" style = "position:fixed;z-index:-9;"></div><div class = "fad-container-right-close-ad" style = "left:0%;top:0%;position:fixed;"></div></div><br><div id = "fad-slot-description">${desc}</div></div></div>`;
+document.getElementById('fad-slot').innerHTML = `<div class = "fad-slot-content" style = "border:5px solid;border-radius:10px;width:50%;height:25%;"><div class = "fad-slot-right-side"><div class = "fad-slot-title" style = "font-size:15px;font-family:Arial;color:black;"><b>${title}</b><div class = "fad-slot-right-container-promo-image"><img src = "${img}" style = "position:absolute;z-index:-9;"></div><div class = "fad-container-right-close-ad" style = "left:0%;top:0%;position:fixed;"></div></div><br><div id = "fad-slot-description">${desc}</div></div></div>`;
 
 document.getElementById("fad-code").value=document.getElementById("uoi").innerHTML;
 }
